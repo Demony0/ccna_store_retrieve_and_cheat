@@ -1,0 +1,45 @@
+*{
+    margin:none;
+    padding:none;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:95%;
+    flex-direction: column;
+}
+
+label,input{
+    display:flex;
+    width:95%;
+}
+
+label{ 
+    justify-content: center;
+    align-items: center;  
+    text-align:center;
+}
+
+#save{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:50%;  
+}
+
+.err{
+    position: absolute;
+    transform:translateY(-40vh)
+}
